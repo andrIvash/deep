@@ -8,7 +8,7 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: "53670070-3e0c-4b1c-b65b-7050f38e4c07"
+    secure: $he
   strategy: git    
   app:
     master: deep-00
