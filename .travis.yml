@@ -14,4 +14,3 @@ deploy:
     master: deep-00
   run:
     - restart
-    - "npm start"
